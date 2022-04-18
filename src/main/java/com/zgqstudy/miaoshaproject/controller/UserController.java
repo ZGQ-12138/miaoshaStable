@@ -49,7 +49,7 @@ public class UserController  extends BaseController{
         //验证手机号和对应的otpcode相符合
         String inSessionOtpCode = (String) this.httpServletRequest.getSession().getAttribute(telphone);
 //        if(!com.alibaba.druid.util.StringUtils.equals(otpCode,)){
-//            throw new BusinessException(EmBusinessError.PARAMETER_VALIDATION_ERROR,"短信验证码不符合");
+//            throw new BusinessException(EmBusinessError.PARAMETER_VALIDATION_ERROR,"短信验证码不符合11");
 //        }
         //用户的注册流程
         UserModel userModel = new UserModel();
